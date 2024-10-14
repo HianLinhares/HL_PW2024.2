@@ -1,0 +1,40 @@
+* {
+    background-color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 420px;
+    gap: 20px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.itens_menu{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.item_home{
+    display: flex;
+    margin-right: 20px;
+    margin-left: -100px;
+
+    
+}
+
+.item_portifolio{
+    margin-right: 20px;
+}

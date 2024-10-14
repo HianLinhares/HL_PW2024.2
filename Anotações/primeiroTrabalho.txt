@@ -1,0 +1,7 @@
+primeiro trabalho 
+
+Criar um site em HTML e CSS, onde ele representará um CV on-line do aluno
+
+Página principal
+
+* menu 
