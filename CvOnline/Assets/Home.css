@@ -1,0 +1,155 @@
+* {
+    background-color: #18191C;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    margin: 0px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    height: 80px;
+
+
+}
+
+
+.itens_menu,
+a {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 50px;
+    outline: none;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #525252;
+    font-size: larger;
+    text-transform: uppercase;
+
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+.item_home {
+    display: flex;
+    margin-right: 30px;
+
+}
+
+.item_portifolio {
+    margin-right: 20px;
+}
+
+.informativo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #292B2F;
+
+}
+
+
+.img_Hian {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 70px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+
+.sobre_mim {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 70px;
+    font-family: 'Roboto Condensed';
+    background-color: #292B2F;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.descricao {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family: "Roboto";
+    font-weight: 100;
+    background-color: #292B2F;
+    color: white;
+
+}
+
+footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #292B2F;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+
+
+
+.icones {
+    display: flex;
+
+    background-color: #292B2F;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+}
+
+.java {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+}
+
+.icones {
+    margin-left: 351px;
+    margin-top: -200px;
+    margin-bottom: 100px;
+}
+
+
+
+.texto_sobre_mim {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-family: "Roboto";
+    font-weight: 100;
+    background-color: #292B2F;
+    color: white;
+
+}
