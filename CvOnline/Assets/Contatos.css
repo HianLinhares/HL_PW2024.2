@@ -1,5 +1,5 @@
-* {
-    background-color: #18191C;
+*{
+    background-color: #292B2F;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 32px;
     margin: 0px;
@@ -13,8 +13,9 @@
     width: 700px;
     align-items: center;
     justify-content: center;
-    width: 98%;
+    width: 100%;
     height: 80px;
+    background-color: #18191C;
 
 
 }
@@ -28,6 +29,7 @@ a {
     gap: 50px;
     outline: none;
     text-decoration: none;
+    background-color: #18191C;
 
 }
 
@@ -51,57 +53,64 @@ li {
 }
 
 
-.informativo {
+
+.forms{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: #292B2F;
-    align-items: center;
-
-}
-
-
-.img_Hian {
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    margin-top: 70px;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
-
-
-
-
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    background-color: #292B2F;
     text-align: center;
-    margin-bottom: 300px;
+    color: white;
+    margin-top: 30px;
 }
 
-.descritivo_forms{
-    background-color: #292B2F;
+.msg{
+    display: flex;
+    margin-left: -200px;
+    margin-top: 100px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-input{
+.mensagem{
+    display: flex;
+    margin-left: 170px;
+    font-family: 'Roboto';
+}
+
+.telefone{
+    font-family: "Roboto";
+    font-weight: 100;
+    margin-left: -100px;
+}
+
+.input_tel{
     background-color: white;
-    border-color: aliceblue;
-    border-radius: 8px 8px;
-    width: 440px;
-    margin-bottom: 20px
+    border-radius: 18px 2px;
+    height: 7vh;
 }
 
-label{
-    color:   #18191C;
-    background-color: #292B2F;
+.box{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    margin-top: -100px;
+    border-radius: 18px 2px;
 }
 
+button{
+    margin-top: 10px;
+    background-color: #28a745;
+    font-family: "Roboto";
+    font-weight: 400;
+}
 
 footer {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -115,12 +124,4 @@ footer {
     text-align: center;
     padding: 10px 0;
 
-}
-
-.contatos{
-    background-color: #292B2F;
-}
-
-button{
-    background-color: aliceblue;
 }
